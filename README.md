@@ -1,28 +1,43 @@
-# 📞 Telco Churn Analysis
+# 📊 Telco Churn Analysis
 ### Understand your customers .. Reduce churn .. Grow revenue
 > Better Insights | Smarter Decisions
 
-### 📊 Dashboard Preview
-![Telco Churn Dashboard](wa_image_7800298174037006444_3)
+## 📌 Overview
+This Power BI project analyzes customer churn for a Telco company to identify at-risk customers and reduce revenue loss. The dashboard provides a 360° view of churn behavior by Internet service, contract type, and monthly charges.
 
-### 📈 Key Performance Indicators
-| Metric | Value | Trend |
-|---|---|---|
-| **Total Revenue** | $9.92M | ▲ +12.4% |
-| **Total Customers** | 3096 | ▲ +8.7% |
-| **Company Churn Rate** | 26.54% | ▼ -5.2% |
-| **Fiber Churn Rate** | 41.89% | ▼ -6.8% |
+**GitHub Repo:** `nermeenfarg/Telco-churn-analysis-`
 
-### 💡 Key Insights & Findings
-- **Highest Risk Segment:** Fiber Optic 41.89% churn vs DSL 18.24%
-- **Monthly Charge Impact:** High Tier has 3.2K customers
-- **Retention Opportunity:** $869.14K potential revenue can be saved
+## 🎯 Business Problem
+Telco companies lose revenue due to high customer churn. The goal is to:
+- Understand why customers churn
+- Identify high-risk segments
+- Provide actionable retention strategies
 
-### 🎯 Business Recommendation
-Implement targeted retention campaign for Fiber + High Monthly Charge customers.
+## 📈 Key KPIs (From Dashboard)
 
-### 🛠️ Tools & Techniques
-- Power BI Desktop | DAX | Churn Analysis
+| Metric | Value | Insight |
+| :--- | :--- | :--- |
+| **Total Revenue** | **$9.92M** | +12.4% vs previous period |
+| **Total Customers** | **3,096** | +8.7% vs previous period |
+| **Company Churn Rate** | **26.54%** | -5.2% improvement |
+| **Churned Customers** | **1,297** | |
+| **Potential Revenue at Risk** | **$869.14K** | Needs retention |
+| **Fiber Churned** | **41.89%** | Highest risk segment |
 
----
-**👩‍💻 By Nermeen Elsayed Farg - Data Analyst**
+## 🔍 Key Insights
+
+1. **Fiber Optic is the #1 Churn Driver:** 41.89% churn rate vs DSL 18.24% vs No Internet 7.16%
+2. **High Monthly Charge = High Churn:** 3.2K customers in High tier are most likely to churn
+3. **Monthly Charge Tier Filter** shows High, Medium, Low segments behavior
+4. **At-Risk Only** feature with Retention Discount % slider (0.5%) helps simulate retention offers
+
+## 🖥️ Dashboard Preview
+
+![Telco Churn Dashboard](dashboard.png)
+*Replace `dashboard.png` with your image name `IMG-20261008-WA0024.jpg` if you keep the old name*
+
+### Features:
+- ✅ Dynamic Slicers: Monthly Charge Tier (High/Medium/Low)
+- ✅ Breakdown By: Contract, InternetService, PaymentMethod, TenureGroup
+- ✅ Churn Rate by Internet Type (Bar Chart)
+- ✅ Total
